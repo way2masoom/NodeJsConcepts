@@ -1,5 +1,5 @@
 // Lincear Search Algorithm
-function linearSearch(arr, target) {
+export function linearSearch(arr, target) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === target) {
             return i; // Return the index of the target element
@@ -9,7 +9,7 @@ function linearSearch(arr, target) {
 }
 
 // Binary Search Algorithm
-function binarySearch(arr, target) {
+export function binarySearch(arr, target) {
     let left = 0;
     let right = arr.length - 1;
 
@@ -26,5 +26,3 @@ function binarySearch(arr, target) {
     }
     return -1; // Return -1 if the target is not found
 }
-
-module.exports = { linearSearch, binarySearch }; // exporting both functions by commonJs Module system
