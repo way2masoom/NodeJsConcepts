@@ -1,6 +1,6 @@
 // Importing the required modules
 
-const Searching = require('./searching.js'); // importing the linearSearch function by commonJs Module system
+const Searching = require('./searching.mjs'); // importing the linearSearch function by commonJs Module system
 
 console.log(Searching);
 
