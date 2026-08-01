@@ -1,3 +1,9 @@
+// Import the Telegram Bot API library
 const TelgramBot = require('node-telegram-bot-api');
-// const TOKEN = '8927736155:AAExZ30TEcTpg5tMdddKG74PbUtkGsdhf0I';
-console.log(process.env.BOT_TOKEN)
+
+// Import the dotenv library to load environment variables from a .env file
+const dotevn = require('dotenv')
+dotevn.config(); // Load environment variables from .env file
+
+
+console.log(process.env.TELEGRAM_TOKEN)
